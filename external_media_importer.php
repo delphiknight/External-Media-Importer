@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name:       External Media Importer
- * Plugin URI:        https://gogelia.ge
  * Description:       Import external media files into WordPress media library with full control.
  * Version:           1.0.29
  * Requires at least: 5.0
@@ -40,9 +39,6 @@ class External_Media_Importer {
         add_action('wp_ajax_emi_dry_run', array($this, 'ajax_dry_run'));
         add_action('wp_ajax_emi_get_logs', array($this, 'ajax_get_logs'));
         add_action('admin_init', array($this, 'handle_csv_export'));
-
-        // Load translations
-        add_action('plugins_loaded', array($this, 'load_textdomain'));
 
         // Activation hook
         register_activation_hook(__FILE__, array($this, 'activate'));
@@ -100,13 +96,6 @@ class External_Media_Importer {
         $cap = get_option('emi_capability', 'manage_options');
         $allowed = array('manage_options', 'edit_posts');
         return in_array($cap, $allowed, true) ? $cap : 'manage_options';
-    }
-
-    /**
-     * Load plugin text domain for translations.
-     */
-    public function load_textdomain() {
-        load_plugin_textdomain('external-media-importer', false, dirname(plugin_basename(__FILE__)) . '/languages');
     }
 
     public function add_admin_menu() {
