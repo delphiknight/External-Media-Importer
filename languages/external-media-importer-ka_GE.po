@@ -1,0 +1,659 @@
+# Georgian translation for External Media Importer plugin.
+# Copyright (C) 2025 Dimitri Gogelia
+# This file is distributed under the same license as the External Media Importer package.
+# Machine Translation (Draft), 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: External Media Importer 1.0.29\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: Machine Translation (Draft)\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Claude Code\n"
+"X-Domain: external-media-importer\n"
+
+#: external_media_importer.php
+msgid "External Media Importer"
+msgstr "გარე მედია იმპორტერი"
+
+#: external_media_importer.php
+msgid "Media Importer"
+msgstr "მედია იმპორტერი"
+
+#: external_media_importer.php
+msgid "Import Dashboard"
+msgstr "იმპორტის პანელი"
+
+#: external_media_importer.php
+msgid "Dashboard"
+msgstr "პანელი"
+
+#: external_media_importer.php
+msgid "Import Logs"
+msgstr "იმპორტის ჟურნალი"
+
+#: external_media_importer.php
+msgid "Logs"
+msgstr "ჟურნალი"
+
+#: external_media_importer.php
+msgid "Settings"
+msgstr "პარამეტრები"
+
+#: assets/admin.js
+msgid "Scanning..."
+msgstr "სკანირება..."
+
+#: external_media_importer.php
+msgid "Scan Posts for External Files"
+msgstr "პოსტების სკანირება გარე ფაილებისთვის"
+
+#: external_media_importer.php
+msgid "Quick Scan"
+msgstr "სწრაფი სკანირება"
+
+#: assets/admin.js
+msgid "No saved scan found."
+msgstr "შენახული სკანირება ვერ მოიძებნა."
+
+#: assets/admin.js
+msgid "Please enter a post ID or URL."
+msgstr "გთხოვთ შეიყვანოთ პოსტის ID ან URL."
+
+#: assets/admin.js
+msgid "Please select at least one post status."
+msgstr "გთხოვთ აირჩიოთ მინიმუმ ერთი პოსტის სტატუსი."
+
+#: assets/admin.js
+msgid "No posts found with potential external files for this post type."
+msgstr "ამ ტიპის პოსტებში გარე ფაილები ვერ მოიძებნა."
+
+#: assets/admin.js
+msgid "Please select at least one file."
+msgstr "გთხოვთ აირჩიოთ მინიმუმ ერთი ფაილი."
+
+#: assets/admin.js
+msgid "Please select at least one file to import"
+msgstr "გთხოვთ აირჩიოთ მინიმუმ ერთი ფაილი იმპორტისთვის"
+
+#: assets/admin.js
+#, php-format
+msgid "%1$d / %2$d posts scanned"
+msgstr "%1$d / %2$d პოსტი დასკანირდა"
+
+#: assets/admin.js
+#, php-format
+msgid "%1$d / %2$d posts scanned (resumed)"
+msgstr "%1$d / %2$d პოსტი დასკანირდა (განახლებული)"
+
+#: assets/admin.js
+#, php-format
+msgid "%1$d / %2$d files checked"
+msgstr "%1$d / %2$d ფაილი შემოწმდა"
+
+#: assets/admin.js
+#, php-format
+msgid "%1$d / %2$d files processed"
+msgstr "%1$d / %2$d ფაილი დამუშავდა"
+
+#: assets/admin.js
+msgid "No posts found with external files."
+msgstr "გარე ფაილების მქონე პოსტები ვერ მოიძებნა."
+
+#: assets/admin.js
+msgid "No external files found in post:"
+msgstr "პოსტში გარე ფაილები ვერ მოიძებნა:"
+
+#: assets/admin.js
+msgid "No actionable posts found."
+msgstr "შესასრულებელი პოსტები ვერ მოიძებნა."
+
+#: assets/admin.js
+#, php-format
+msgid "Found %d post(s) with external files"
+msgstr "ნაპოვნია %d პოსტი გარე ფაილებით"
+
+#: assets/admin.js
+#, php-format
+msgid "%d post(s) skipped — all external links were previously found dead or already imported."
+msgstr "%d პოსტი გამოტოვებულია — ყველა გარე ბმული მკვდარია ან უკვე იმპორტირებულია."
+
+#: assets/admin.js
+msgid "Clear dead link history"
+msgstr "მკვდარი ბმულების ისტორიის გასუფთავება"
+
+#: assets/admin.js
+#, php-format
+msgid "Previous scan interrupted: %1$d / %2$d posts scanned (%3$d%%), %4$d post(s) with files found so far."
+msgstr "წინა სკანირება შეწყდა: %1$d / %2$d პოსტი დასკანირდა (%3$d%%), %4$d პოსტი ფაილებით ნაპოვნია."
+
+#: assets/admin.js
+msgid "Import Selected Files"
+msgstr "არჩეული ფაილების იმპორტი"
+
+#: assets/admin.js
+#, php-format
+msgid "Import Selected Files (%d)"
+msgstr "არჩეული ფაილების იმპორტი (%d)"
+
+#: assets/admin.js
+msgid "Dry Run (Check Sizes)"
+msgstr "საცდელი გაშვება (ზომების შემოწმება)"
+
+#: assets/admin.js
+#, php-format
+msgid "Dry Run (Check Sizes) (%d)"
+msgstr "საცდელი გაშვება (ზომების შემოწმება) (%d)"
+
+#: assets/admin.js
+msgid "Checking..."
+msgstr "შემოწმება..."
+
+#: assets/admin.js
+msgid "Loading..."
+msgstr "იტვირთება..."
+
+#: assets/admin.js
+#, php-format
+msgid "Total: %1$d file(s), %2$s"
+msgstr "სულ: %1$d ფაილი, %2$s"
+
+#: assets/admin.js
+#, php-format
+msgid "Processing: %1$s (Post: %2$s)"
+msgstr "მუშავდება: %1$s (პოსტი: %2$s)"
+
+#: assets/admin.js
+#, php-format
+msgid "Successfully imported: %1$s (Attachment ID: %2$d)"
+msgstr "წარმატებით იმპორტირდა: %1$s (მიმაგრების ID: %2$d)"
+
+#: assets/admin.js
+msgid "URL replaced in post content"
+msgstr "URL შეიცვალა პოსტის შინაარსში"
+
+#: assets/admin.js
+#, php-format
+msgid "Skipped: %1$s - %2$s"
+msgstr "გამოტოვებულია: %1$s - %2$s"
+
+#: assets/admin.js
+#, php-format
+msgid "Error importing %1$s: %2$s"
+msgstr "შეცდომა %1$s-ის იმპორტისას: %2$s"
+
+#: assets/admin.js
+#, php-format
+msgid "AJAX Error for %1$s: %2$s"
+msgstr "AJAX შეცდომა %1$s-ისთვის: %2$s"
+
+#: assets/admin.js
+msgid "Import process completed!"
+msgstr "იმპორტის პროცესი დასრულდა!"
+
+#: assets/admin.js
+msgid "Import completed! Check the logs for details. You can rescan to see if there are any remaining external files."
+msgstr "იმპორტი დასრულდა! დეტალებისთვის შეამოწმეთ ჟურნალი. შეგიძლიათ ხელახლა დასკანირება დარჩენილი გარე ფაილების სანახავად."
+
+#: external_media_importer.php
+msgid "Post ID"
+msgstr "პოსტის ID"
+
+#: external_media_importer.php
+msgid "Post Title"
+msgstr "პოსტის სათაური"
+
+#: external_media_importer.php
+msgid "External Files (select to import)"
+msgstr "გარე ფაილები (აირჩიეთ იმპორტისთვის)"
+
+#: assets/admin.js
+#, php-format
+msgid "Already imported (ID: %d)"
+msgstr "უკვე იმპორტირებულია (ID: %d)"
+
+#: assets/admin.js
+msgid "Dead link"
+msgstr "მკვდარი ბმული"
+
+#: assets/admin.js
+msgid "Retry all failed imports? Old error log entries will be removed and files will be re-imported."
+msgstr "ხელახლა ცდა ყველა წარუმატებელი იმპორტისთვის? ძველი შეცდომის ჩანაწერები წაიშლება და ფაილები თავიდან იმპორტირდება."
+
+#: assets/admin.js
+#, php-format
+msgid "Retrying %d file(s)..."
+msgstr "ხელახალი ცდა %d ფაილისთვის..."
+
+#: assets/admin.js
+msgid "Retry process completed!"
+msgstr "ხელახალი ცდის პროცესი დასრულდა!"
+
+#: assets/admin.js
+msgid "No failed imports found."
+msgstr "წარუმატებელი იმპორტი ვერ მოიძებნა."
+
+#: external_media_importer.php
+msgid "Retry Failed Imports"
+msgstr "წარუმატებელი იმპორტის ხელახალი ცდა"
+
+#: assets/admin.js
+msgid "Failed to fetch error entries."
+msgstr "შეცდომის ჩანაწერების მიღება ვერ მოხერხდა."
+
+#: assets/admin.js
+msgid "Done! Reload page to see updated logs."
+msgstr "მზადაა! გადატვირთეთ გვერდი განახლებული ჟურნალის სანახავად."
+
+#: assets/admin.js
+#, php-format
+msgid "Imported: %1$s (Attachment ID: %2$d)"
+msgstr "იმპორტირდა: %1$s (მიმაგრების ID: %2$d)"
+
+#: assets/admin.js
+#, php-format
+msgid "Failed again: %1$s - %2$s"
+msgstr "კვლავ წარუმატებელია: %1$s - %2$s"
+
+#: assets/admin.js
+msgid "Clear all dead link records? Posts with dead links will appear again on next scan."
+msgstr "გასუფთავდეს ყველა მკვდარი ბმულის ჩანაწერი? მკვდარი ბმულების მქონე პოსტები კვლავ გამოჩნდება შემდეგ სკანირებისას."
+
+#: assets/admin.js
+msgid "Clearing..."
+msgstr "სუფთავდება..."
+
+#: assets/admin.js
+msgid "Please re-scan to see them."
+msgstr "გთხოვთ ხელახლა დასკანირეთ მათ სანახავად."
+
+#: assets/admin.js
+msgid "AJAX error. Please try again."
+msgstr "AJAX შეცდომა. გთხოვთ სცადოთ ხელახლა."
+
+#: assets/admin.js
+msgid "Error:"
+msgstr "შეცდომა:"
+
+#: assets/admin.js
+msgid "AJAX Error:"
+msgstr "AJAX შეცდომა:"
+
+#: external_media_importer.php
+msgid "Quick Scan by Post ID or URL"
+msgstr "სწრაფი სკანირება პოსტის ID-ით ან URL-ით"
+
+#: external_media_importer.php
+msgid "Post ID or URL:"
+msgstr "პოსტის ID ან URL:"
+
+#: external_media_importer.php
+msgid "e.g. 123 or https://example.com/my-post/"
+msgstr "მაგ. 123 ან https://example.com/my-post/"
+
+#: external_media_importer.php
+msgid "Enter a post ID or full post URL to scan a single post for external files"
+msgstr "შეიყვანეთ პოსტის ID ან სრული URL ერთი პოსტის გარე ფაილებისთვის სკანირებისთვის"
+
+#: external_media_importer.php
+msgid "Post Type:"
+msgstr "პოსტის ტიპი:"
+
+#: external_media_importer.php
+msgid "Select post type to scan for external media files"
+msgstr "აირჩიეთ პოსტის ტიპი გარე მედია ფაილების სკანირებისთვის"
+
+#: external_media_importer.php
+msgid "Post Status:"
+msgstr "პოსტის სტატუსი:"
+
+#: external_media_importer.php
+msgid "Published"
+msgstr "გამოქვეყნებული"
+
+#: external_media_importer.php
+msgid "Draft"
+msgstr "მონახაზი"
+
+#: external_media_importer.php
+msgid "Pending Review"
+msgstr "განხილვის მოლოდინში"
+
+#: external_media_importer.php
+msgid "Private"
+msgstr "პირადი"
+
+#: external_media_importer.php
+msgid "Scheduled"
+msgstr "დაგეგმილი"
+
+#: external_media_importer.php
+msgid "Select which post statuses to include in the scan"
+msgstr "აირჩიეთ რომელი პოსტის სტატუსები შეიტანოთ სკანირებაში"
+
+#: external_media_importer.php
+msgid "Resume Interrupted Scan"
+msgstr "შეწყვეტილი სკანირების გაგრძელება"
+
+#: assets/admin.js
+msgid "Resume Scan"
+msgstr "სკანირების გაგრძელება"
+
+#: assets/admin.js
+msgid "Dismiss"
+msgstr "დახურვა"
+
+#: external_media_importer.php
+msgid "Posts with External Files"
+msgstr "პოსტები გარე ფაილებით"
+
+#: external_media_importer.php
+msgid "Select posts and files to import"
+msgstr "აირჩიეთ პოსტები და ფაილები იმპორტისთვის"
+
+#: external_media_importer.php
+msgid "Scanning posts..."
+msgstr "პოსტების სკანირება..."
+
+#: external_media_importer.php
+msgid "0 / 0 posts scanned"
+msgstr "0 / 0 პოსტი დასკანირდა"
+
+#: external_media_importer.php
+msgid "Import Progress"
+msgstr "იმპორტის პროგრესი"
+
+#: external_media_importer.php
+msgid "0 / 0 files processed"
+msgstr "0 / 0 ფაილი დამუშავდა"
+
+#: external_media_importer.php
+msgid "Dry Run Progress"
+msgstr "საცდელი გაშვების პროგრესი"
+
+#: external_media_importer.php
+msgid "0 / 0 files checked"
+msgstr "0 / 0 ფაილი შემოწმდა"
+
+#: assets/admin.js
+msgid "Select All Files"
+msgstr "ყველა ფაილის არჩევა"
+
+#: assets/admin.js
+msgid "Deselect All Files"
+msgstr "ყველა ფაილის მოხსნა"
+
+#: external_media_importer.php
+msgid "All"
+msgstr "ყველა"
+
+#: external_media_importer.php
+msgid "Success"
+msgstr "წარმატებული"
+
+#: external_media_importer.php
+msgid "Error"
+msgstr "შეცდომა"
+
+#: external_media_importer.php
+msgid "Skipped"
+msgstr "გამოტოვებული"
+
+#: external_media_importer.php
+#, php-format
+msgid "Retry Failed Imports (%d)"
+msgstr "წარუმატებელი იმპორტის ხელახალი ცდა (%d)"
+
+#: external_media_importer.php
+#, php-format
+msgid "Export %s Logs to CSV"
+msgstr "%s ჟურნალის ექსპორტი CSV-ში"
+
+#: external_media_importer.php
+msgid "ID"
+msgstr "ID"
+
+#: external_media_importer.php
+msgid "Original URL"
+msgstr "ორიგინალი URL"
+
+#: external_media_importer.php
+msgid "Status"
+msgstr "სტატუსი"
+
+#: external_media_importer.php
+msgid "Attachment ID"
+msgstr "მიმაგრების ID"
+
+#: external_media_importer.php
+msgid "Error Message"
+msgstr "შეცდომის შეტყობინება"
+
+#: external_media_importer.php
+msgid "Date"
+msgstr "თარიღი"
+
+#: external_media_importer.php
+msgid "No logs found"
+msgstr "ჟურნალი ცარიელია"
+
+#: external_media_importer.php
+msgid "Retry Progress"
+msgstr "ხელახალი ცდის პროგრესი"
+
+#: external_media_importer.php
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s ჩანაწერი"
+msgstr[1] "%s ჩანაწერი"
+
+#: external_media_importer.php
+msgid "Insufficient permissions"
+msgstr "არასაკმარისი უფლებები"
+
+#: external_media_importer.php
+msgid "Invalid security token"
+msgstr "არასწორი უსაფრთხოების ტოკენი"
+
+#: external_media_importer.php
+msgid "Settings saved!"
+msgstr "პარამეტრები შენახულია!"
+
+#: external_media_importer.php
+msgid "All import logs cleared."
+msgstr "ყველა იმპორტის ჟურნალი გასუფთავდა."
+
+#: external_media_importer.php
+msgid "External Media Importer Settings"
+msgstr "გარე მედია იმპორტერის პარამეტრები"
+
+#: external_media_importer.php
+msgid "Allowed File Types:"
+msgstr "დაშვებული ფაილის ტიპები:"
+
+#: external_media_importer.php
+msgid "Select file extensions or type custom ones. Press Enter to add a new extension."
+msgstr "აირჩიეთ ფაილის გაფართოებები ან ჩაწერეთ სასურველი. დააჭირეთ Enter-ს ახლის დასამატებლად."
+
+#: external_media_importer.php
+msgid "External Server URLs:"
+msgstr "გარე სერვერის URL-ები:"
+
+#: external_media_importer.php
+msgid "Base URLs of external servers (optional). Type a URL and press Enter to add. Leave empty to scan all external URLs."
+msgstr "გარე სერვერების ბაზისური URL-ები (არასავალდებულო). ჩაწერეთ URL და დააჭირეთ Enter-ს. ცარიელი დატოვეთ ყველა გარე URL-ის სკანირებისთვის."
+
+#: external_media_importer.php
+msgid "Scan Batch Size:"
+msgstr "სკანირების პარტიის ზომა:"
+
+#: external_media_importer.php
+msgid "Number of posts to scan per AJAX request (10-200). Lower values use less memory; higher values scan faster. Default: 50"
+msgstr "სკანირებული პოსტების რაოდენობა AJAX მოთხოვნაზე (10-200). ნაკლები მნიშვნელობა ნაკლებ მეხსიერებას იყენებს; მეტი - უფრო სწრაფად სკანირდება. ნაგულისხმევი: 50"
+
+#: external_media_importer.php
+msgid "Required Permission:"
+msgstr "საჭირო უფლება:"
+
+#: external_media_importer.php
+msgid "Administrators Only (manage_options)"
+msgstr "მხოლოდ ადმინისტრატორები (manage_options)"
+
+#: external_media_importer.php
+msgid "Editors and above (edit_posts)"
+msgstr "რედაქტორები და ზემოთ (edit_posts)"
+
+#: external_media_importer.php
+msgid "Minimum user role required to access all plugin features. Default: Administrators Only"
+msgstr "მინიმალური მომხმარებლის როლი პლაგინის ყველა ფუნქციაზე წვდომისთვის. ნაგულისხმევი: მხოლოდ ადმინისტრატორები"
+
+#: external_media_importer.php
+msgid "Save Settings"
+msgstr "პარამეტრების შენახვა"
+
+#: external_media_importer.php
+msgid "Data Management"
+msgstr "მონაცემთა მართვა"
+
+#: external_media_importer.php
+#, php-format
+msgid "Currently %s log entry in the database."
+msgid_plural "Currently %s log entries in the database."
+msgstr[0] "ამჟამად მონაცემთა ბაზაში %s ჟურნალის ჩანაწერია."
+msgstr[1] "ამჟამად მონაცემთა ბაზაში %s ჟურნალის ჩანაწერია."
+
+#: assets/admin.js
+msgid "Clear ALL import logs? This cannot be undone."
+msgstr "გსურთ ყველა იმპორტის ჟურნალის გასუფთავება? ეს მოქმედება შეუქცევადია."
+
+#: external_media_importer.php
+msgid "Clear All Logs"
+msgstr "ყველა ჟურნალის გასუფთავება"
+
+#: external_media_importer.php
+msgid "Permanently delete all import log entries. This does not affect imported files."
+msgstr "ყველა იმპორტის ჟურნალის ჩანაწერის სამუდამო წაშლა. ეს არ იმოქმედებს იმპორტირებულ ფაილებზე."
+
+#: external_media_importer.php
+msgid "Overview"
+msgstr "მიმოხილვა"
+
+#: external_media_importer.php
+msgid "Total Imports"
+msgstr "სულ იმპორტი"
+
+#: external_media_importer.php
+msgid "Successful"
+msgstr "წარმატებული"
+
+#: external_media_importer.php
+msgid "Failed"
+msgstr "წარუმატებელი"
+
+#: external_media_importer.php
+msgid "Skipped (Dead)"
+msgstr "გამოტოვებული (მკვდარი)"
+
+#: external_media_importer.php
+msgid "Storage & Coverage"
+msgstr "საცავი და დაფარვა"
+
+#: external_media_importer.php
+msgid "Disk Space Used"
+msgstr "გამოყენებული დისკის ადგილი"
+
+#: external_media_importer.php
+#, php-format
+msgid "%s imported file"
+msgid_plural "%s imported files"
+msgstr[0] "%s იმპორტირებული ფაილი"
+msgstr[1] "%s იმპორტირებული ფაილი"
+
+#: external_media_importer.php
+msgid "Posts Affected"
+msgstr "დაზარალებული პოსტები"
+
+#: external_media_importer.php
+msgid "Unique posts with import activity"
+msgstr "უნიკალური პოსტები იმპორტის აქტივობით"
+
+#: external_media_importer.php
+msgid "Top Errors"
+msgstr "ტოპ შეცდომები"
+
+#: external_media_importer.php
+msgid "Count"
+msgstr "რაოდენობა"
+
+#: external_media_importer.php
+#, php-format
+msgid "No import data yet. Start by scanning posts on the %smain page%s."
+msgstr "იმპორტის მონაცემები ჯერ არ არის. დაიწყეთ პოსტების სკანირება %sმთავარ გვერდზე%s."
+
+#: external_media_importer.php
+msgid "Could not find a post matching this URL. Make sure the URL is a valid post/page permalink on this site."
+msgstr "ამ URL-ის შესაბამისი პოსტი ვერ მოიძებნა. დარწმუნდით, რომ URL არის ამ საიტის პოსტის/გვერდის სწორი მუდმივი ბმული."
+
+#: external_media_importer.php
+msgid "Invalid post ID"
+msgstr "არასწორი პოსტის ID"
+
+#: external_media_importer.php
+msgid "No post IDs provided"
+msgstr "პოსტის ID-ები არ არის მითითებული"
+
+#: external_media_importer.php
+msgid "Missing required parameters"
+msgstr "აკლია საჭირო პარამეტრები"
+
+#: external_media_importer.php
+msgid "Post not found"
+msgstr "პოსტი ვერ მოიძებნა"
+
+#: external_media_importer.php
+#, php-format
+msgid "Already imported (Attachment ID: %d)"
+msgstr "უკვე იმპორტირებულია (მიმაგრების ID: %d)"
+
+#: external_media_importer.php
+msgid "Failed to check remote file:"
+msgstr "დისტანციური ფაილის შემოწმება ვერ მოხერხდა:"
+
+#: external_media_importer.php
+msgid "File no longer exists on remote server"
+msgstr "ფაილი აღარ არსებობს დისტანციურ სერვერზე"
+
+#: external_media_importer.php
+msgid "Failed to download file:"
+msgstr "ფაილის ჩამოტვირთვა ვერ მოხერხდა:"
+
+#: external_media_importer.php
+msgid "Failed to import file:"
+msgstr "ფაილის იმპორტი ვერ მოხერხდა:"
+
+#: external_media_importer.php
+msgid "File imported successfully"
+msgstr "ფაილი წარმატებით იმპორტირდა"
+
+#: external_media_importer.php
+#, php-format
+msgid "%d dead link record cleared."
+msgid_plural "%d dead link records cleared."
+msgstr[0] "%d მკვდარი ბმულის ჩანაწერი გასუფთავდა."
+msgstr[1] "%d მკვდარი ბმულის ჩანაწერი გასუფთავდა."
+
+#: external_media_importer.php
+msgid "Missing log ID"
+msgstr "აკლია ჟურნალის ID"
+
+#: external_media_importer.php
+msgid "No URLs provided"
+msgstr "URL-ები არ არის მითითებული"

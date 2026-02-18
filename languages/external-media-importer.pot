@@ -1,0 +1,655 @@
+# Copyright (C) 2025 Dimitri Gogelia
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: External Media Importer 1.0.29\n"
+"Report-Msgid-Bugs-To: https://gogelia.ge\n"
+"POT-Creation-Date: 2026-02-18 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Claude Code\n"
+"X-Domain: external-media-importer\n"
+
+#. Plugin Name of the plugin
+#: external_media_importer.php:3
+#: external_media_importer.php:116
+#: external_media_importer.php:271
+msgid "External Media Importer"
+msgstr ""
+
+#: external_media_importer.php:117
+msgid "Media Importer"
+msgstr ""
+
+#: external_media_importer.php:127
+#: external_media_importer.php:873
+msgid "Import Dashboard"
+msgstr ""
+
+#: external_media_importer.php:128
+msgid "Dashboard"
+msgstr ""
+
+#: external_media_importer.php:136
+#: external_media_importer.php:457
+#: external_media_importer.php:788
+msgid "Import Logs"
+msgstr ""
+
+#: external_media_importer.php:137
+msgid "Logs"
+msgstr ""
+
+#: external_media_importer.php:145
+#: external_media_importer.php:146
+msgid "Settings"
+msgstr ""
+
+#: external_media_importer.php:183
+msgid "Scanning..."
+msgstr ""
+
+#: external_media_importer.php:184
+#: external_media_importer.php:275
+#: external_media_importer.php:308
+msgid "Scan Posts for External Files"
+msgstr ""
+
+#: external_media_importer.php:185
+#: external_media_importer.php:328
+msgid "Quick Scan"
+msgstr ""
+
+#: external_media_importer.php:186
+msgid "No saved scan found."
+msgstr ""
+
+#: external_media_importer.php:187
+msgid "Please enter a post ID or URL."
+msgstr ""
+
+#: external_media_importer.php:188
+msgid "Please select at least one post status."
+msgstr ""
+
+#: external_media_importer.php:189
+msgid "No posts found with potential external files for this post type."
+msgstr ""
+
+#: external_media_importer.php:190
+msgid "Please select at least one file."
+msgstr ""
+
+#: external_media_importer.php:191
+msgid "Please select at least one file to import"
+msgstr ""
+
+#: external_media_importer.php:194
+msgid "%1$d / %2$d posts scanned"
+msgstr ""
+
+#: external_media_importer.php:195
+msgid "%1$d / %2$d posts scanned (resumed)"
+msgstr ""
+
+#: external_media_importer.php:196
+msgid "%1$d / %2$d files checked"
+msgstr ""
+
+#: external_media_importer.php:197
+msgid "%1$d / %2$d files processed"
+msgstr ""
+
+#: external_media_importer.php:200
+msgid "No posts found with external files."
+msgstr ""
+
+#: external_media_importer.php:201
+msgid "No external files found in post:"
+msgstr ""
+
+#: external_media_importer.php:202
+msgid "No actionable posts found."
+msgstr ""
+
+#: external_media_importer.php:203
+msgid "Found %d post(s) with external files"
+msgstr ""
+
+#: external_media_importer.php:204
+msgid "%d post(s) skipped — all external links were previously found dead or already imported."
+msgstr ""
+
+#: external_media_importer.php:205
+msgid "Clear dead link history"
+msgstr ""
+
+#: external_media_importer.php:208
+msgid "Previous scan interrupted: %1$d / %2$d posts scanned (%3$d%%), %4$d post(s) with files found so far."
+msgstr ""
+
+#: external_media_importer.php:211
+#: external_media_importer.php:359
+msgid "Import Selected Files"
+msgstr ""
+
+#: external_media_importer.php:212
+msgid "Import Selected Files (%d)"
+msgstr ""
+
+#: external_media_importer.php:213
+#: external_media_importer.php:362
+msgid "Dry Run (Check Sizes)"
+msgstr ""
+
+#: external_media_importer.php:214
+msgid "Dry Run (Check Sizes) (%d)"
+msgstr ""
+
+#: external_media_importer.php:215
+msgid "Checking..."
+msgstr ""
+
+#: external_media_importer.php:216
+msgid "Loading..."
+msgstr ""
+
+#: external_media_importer.php:219
+msgid "Total: %1$d file(s), %2$s"
+msgstr ""
+
+#: external_media_importer.php:222
+msgid "Processing: %1$s (Post: %2$s)"
+msgstr ""
+
+#: external_media_importer.php:223
+msgid "Successfully imported: %1$s (Attachment ID: %2$d)"
+msgstr ""
+
+#: external_media_importer.php:224
+msgid "URL replaced in post content"
+msgstr ""
+
+#: external_media_importer.php:225
+msgid "Skipped: %1$s - %2$s"
+msgstr ""
+
+#: external_media_importer.php:226
+msgid "Error importing %1$s: %2$s"
+msgstr ""
+
+#: external_media_importer.php:227
+msgid "AJAX Error for %1$s: %2$s"
+msgstr ""
+
+#: external_media_importer.php:228
+msgid "Import process completed!"
+msgstr ""
+
+#: external_media_importer.php:229
+msgid "Import completed! Check the logs for details. You can rescan to see if there are any remaining external files."
+msgstr ""
+
+#: external_media_importer.php:232
+#: external_media_importer.php:511
+msgid "Post ID"
+msgstr ""
+
+#: external_media_importer.php:233
+#: external_media_importer.php:512
+msgid "Post Title"
+msgstr ""
+
+#: external_media_importer.php:234
+msgid "External Files (select to import)"
+msgstr ""
+
+#: external_media_importer.php:237
+msgid "Already imported (ID: %d)"
+msgstr ""
+
+#: external_media_importer.php:238
+msgid "Dead link"
+msgstr ""
+
+#: external_media_importer.php:241
+msgid "Retry all failed imports? Old error log entries will be removed and files will be re-imported."
+msgstr ""
+
+#: external_media_importer.php:242
+msgid "Retrying %d file(s)..."
+msgstr ""
+
+#: external_media_importer.php:243
+msgid "Retry process completed!"
+msgstr ""
+
+#: external_media_importer.php:244
+msgid "No failed imports found."
+msgstr ""
+
+#: external_media_importer.php:245
+msgid "Retry Failed Imports"
+msgstr ""
+
+#: external_media_importer.php:246
+msgid "Failed to fetch error entries."
+msgstr ""
+
+#: external_media_importer.php:247
+msgid "Done! Reload page to see updated logs."
+msgstr ""
+
+#: external_media_importer.php:248
+msgid "Imported: %1$s (Attachment ID: %2$d)"
+msgstr ""
+
+#: external_media_importer.php:249
+msgid "Failed again: %1$s - %2$s"
+msgstr ""
+
+#: external_media_importer.php:252
+msgid "Clear all dead link records? Posts with dead links will appear again on next scan."
+msgstr ""
+
+#: external_media_importer.php:253
+msgid "Clearing..."
+msgstr ""
+
+#: external_media_importer.php:254
+msgid "Please re-scan to see them."
+msgstr ""
+
+#: external_media_importer.php:255
+msgid "AJAX error. Please try again."
+msgstr ""
+
+#: external_media_importer.php:258
+msgid "Error:"
+msgstr ""
+
+#: external_media_importer.php:259
+msgid "AJAX Error:"
+msgstr ""
+
+#: external_media_importer.php:315
+msgid "Quick Scan by Post ID or URL"
+msgstr ""
+
+#: external_media_importer.php:319
+msgid "Post ID or URL:"
+msgstr ""
+
+#: external_media_importer.php:321
+msgid "e.g. 123 or https://example.com/my-post/"
+msgstr ""
+
+#: external_media_importer.php:322
+msgid "Enter a post ID or full post URL to scan a single post for external files"
+msgstr ""
+
+#: external_media_importer.php:279
+msgid "Post Type:"
+msgstr ""
+
+#: external_media_importer.php:288
+msgid "Select post type to scan for external media files"
+msgstr ""
+
+#: external_media_importer.php:292
+msgid "Post Status:"
+msgstr ""
+
+#: external_media_importer.php:295
+msgid "Published"
+msgstr ""
+
+#: external_media_importer.php:296
+msgid "Draft"
+msgstr ""
+
+#: external_media_importer.php:297
+msgid "Pending Review"
+msgstr ""
+
+#: external_media_importer.php:298
+msgid "Private"
+msgstr ""
+
+#: external_media_importer.php:299
+msgid "Scheduled"
+msgstr ""
+
+#: external_media_importer.php:301
+msgid "Select which post statuses to include in the scan"
+msgstr ""
+
+#: external_media_importer.php:335
+msgid "Resume Interrupted Scan"
+msgstr ""
+
+#: external_media_importer.php:338
+msgid "Resume Scan"
+msgstr ""
+
+#: external_media_importer.php:339
+msgid "Dismiss"
+msgstr ""
+
+#: external_media_importer.php:344
+msgid "Posts with External Files"
+msgstr ""
+
+#: external_media_importer.php:345
+msgid "Select posts and files to import"
+msgstr ""
+
+#: external_media_importer.php:348
+msgid "Scanning posts..."
+msgstr ""
+
+#: external_media_importer.php:352
+msgid "0 / 0 posts scanned"
+msgstr ""
+
+#: external_media_importer.php:378
+msgid "Import Progress"
+msgstr ""
+
+#: external_media_importer.php:382
+#: external_media_importer.php:563
+msgid "0 / 0 files processed"
+msgstr ""
+
+#: external_media_importer.php:370
+msgid "Dry Run Progress"
+msgstr ""
+
+#: external_media_importer.php:374
+msgid "0 / 0 files checked"
+msgstr ""
+
+#: external_media_importer.php:364
+msgid "Select All Files"
+msgstr ""
+
+#: external_media_importer.php:365
+msgid "Deselect All Files"
+msgstr ""
+
+#: external_media_importer.php:463
+msgid "All"
+msgstr ""
+
+#: external_media_importer.php:467
+msgid "Success"
+msgstr ""
+
+#: external_media_importer.php:467
+msgid "Error"
+msgstr ""
+
+#: external_media_importer.php:467
+msgid "Skipped"
+msgstr ""
+
+#: external_media_importer.php:489
+msgid "Retry Failed Imports (%d)"
+msgstr ""
+
+#: external_media_importer.php:502
+msgid "Export %s Logs to CSV"
+msgstr ""
+
+#: external_media_importer.php:510
+msgid "ID"
+msgstr ""
+
+#: external_media_importer.php:513
+msgid "Original URL"
+msgstr ""
+
+#: external_media_importer.php:514
+msgid "Status"
+msgstr ""
+
+#: external_media_importer.php:515
+msgid "Attachment ID"
+msgstr ""
+
+#: external_media_importer.php:516
+#: external_media_importer.php:924
+msgid "Error Message"
+msgstr ""
+
+#: external_media_importer.php:517
+msgid "Date"
+msgstr ""
+
+#: external_media_importer.php:522
+msgid "No logs found"
+msgstr ""
+
+#: external_media_importer.php:559
+msgid "Retry Progress"
+msgstr ""
+
+#: external_media_importer.php:571
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: external_media_importer.php:607
+#: external_media_importer.php:956
+#: external_media_importer.php:1019
+#: external_media_importer.php:1077
+#: external_media_importer.php:1153
+#: external_media_importer.php:1191
+#: external_media_importer.php:1320
+#: external_media_importer.php:1343
+#: external_media_importer.php:1380
+#: external_media_importer.php:1403
+msgid "Insufficient permissions"
+msgstr ""
+
+#: external_media_importer.php:611
+msgid "Invalid security token"
+msgstr ""
+
+#: external_media_importer.php:688
+msgid "Settings saved!"
+msgstr ""
+
+#: external_media_importer.php:694
+msgid "All import logs cleared."
+msgstr ""
+
+#: external_media_importer.php:718
+msgid "External Media Importer Settings"
+msgstr ""
+
+#: external_media_importer.php:725
+msgid "Allowed File Types:"
+msgstr ""
+
+#: external_media_importer.php:737
+msgid "Select file extensions or type custom ones. Press Enter to add a new extension."
+msgstr ""
+
+#: external_media_importer.php:741
+msgid "External Server URLs:"
+msgstr ""
+
+#: external_media_importer.php:752
+msgid "Base URLs of external servers (optional). Type a URL and press Enter to add. Leave empty to scan all external URLs."
+msgstr ""
+
+#: external_media_importer.php:756
+msgid "Scan Batch Size:"
+msgstr ""
+
+#: external_media_importer.php:762
+msgid "Number of posts to scan per AJAX request (10-200). Lower values use less memory; higher values scan faster. Default: 50"
+msgstr ""
+
+#: external_media_importer.php:766
+msgid "Required Permission:"
+msgstr ""
+
+#: external_media_importer.php:769
+msgid "Administrators Only (manage_options)"
+msgstr ""
+
+#: external_media_importer.php:770
+msgid "Editors and above (edit_posts)"
+msgstr ""
+
+#: external_media_importer.php:772
+msgid "Minimum user role required to access all plugin features. Default: Administrators Only"
+msgstr ""
+
+#: external_media_importer.php:778
+msgid "Save Settings"
+msgstr ""
+
+#: external_media_importer.php:783
+msgid "Data Management"
+msgstr ""
+
+#: external_media_importer.php:791
+msgid "Currently %s log entry in the database."
+msgid_plural "Currently %s log entries in the database."
+msgstr[0] ""
+msgstr[1] ""
+
+#: external_media_importer.php:795
+msgid "Clear ALL import logs? This cannot be undone."
+msgstr ""
+
+#: external_media_importer.php:796
+msgid "Clear All Logs"
+msgstr ""
+
+#: external_media_importer.php:798
+msgid "Permanently delete all import log entries. This does not affect imported files."
+msgstr ""
+
+#: external_media_importer.php:877
+msgid "Overview"
+msgstr ""
+
+#: external_media_importer.php:881
+msgid "Total Imports"
+msgstr ""
+
+#: external_media_importer.php:885
+msgid "Successful"
+msgstr ""
+
+#: external_media_importer.php:890
+msgid "Failed"
+msgstr ""
+
+#: external_media_importer.php:895
+msgid "Skipped (Dead)"
+msgstr ""
+
+#: external_media_importer.php:902
+msgid "Storage & Coverage"
+msgstr ""
+
+#: external_media_importer.php:906
+msgid "Disk Space Used"
+msgstr ""
+
+#: external_media_importer.php:907
+msgid "%s imported file"
+msgid_plural "%s imported files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: external_media_importer.php:911
+msgid "Posts Affected"
+msgstr ""
+
+#: external_media_importer.php:912
+msgid "Unique posts with import activity"
+msgstr ""
+
+#: external_media_importer.php:919
+msgid "Top Errors"
+msgstr ""
+
+#: external_media_importer.php:923
+msgid "Count"
+msgstr ""
+
+#: external_media_importer.php:942
+msgid "No import data yet. Start by scanning posts on the %smain page%s."
+msgstr ""
+
+#: external_media_importer.php:1032
+msgid "Could not find a post matching this URL. Make sure the URL is a valid post/page permalink on this site."
+msgstr ""
+
+#: external_media_importer.php:1038
+#: external_media_importer.php:1159
+msgid "Invalid post ID"
+msgstr ""
+
+#: external_media_importer.php:1085
+msgid "No post IDs provided"
+msgstr ""
+
+#: external_media_importer.php:1198
+msgid "Missing required parameters"
+msgstr ""
+
+#: external_media_importer.php:1203
+msgid "Post not found"
+msgstr ""
+
+#: external_media_importer.php:1211
+msgid "Already imported (Attachment ID: %d)"
+msgstr ""
+
+#: external_media_importer.php:1220
+msgid "Failed to check remote file:"
+msgstr ""
+
+#: external_media_importer.php:1228
+msgid "File no longer exists on remote server"
+msgstr ""
+
+#: external_media_importer.php:1237
+msgid "Failed to download file:"
+msgstr ""
+
+#: external_media_importer.php:1276
+msgid "Failed to import file:"
+msgstr ""
+
+#: external_media_importer.php:1306
+msgid "File imported successfully"
+msgstr ""
+
+#: external_media_importer.php:1332
+msgid "%d dead link record cleared."
+msgid_plural "%d dead link records cleared."
+msgstr[0] ""
+msgstr[1] ""
+
+#: external_media_importer.php:1385
+msgid "Missing log ID"
+msgstr ""
+
+#: external_media_importer.php:1408
+msgid "No URLs provided"
+msgstr ""
