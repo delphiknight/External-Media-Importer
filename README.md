@@ -1,3 +1,5 @@
+**[English](README.md)** | [ქართული (Georgian)](README-ka.md)
+
 # External Media Importer
 
 A WordPress plugin that scans your posts, pages, and custom post types for external media file URLs and imports them into your WordPress media library. All external URLs in post content are automatically replaced with local URLs after import.
