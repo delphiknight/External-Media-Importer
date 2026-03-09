@@ -1,8 +1,8 @@
-# External Media Importer
+# MediaFlock
 
-A WordPress plugin that scans your posts, pages, and custom post types for external media file URLs and imports them into your WordPress media library. All external URLs in post content are automatically replaced with local URLs after import.
+Gather all your scattered media into one flock. MediaFlock scans your WordPress posts, pages, and custom post types for external media file URLs, imports them into your media library, and replaces all references with local URLs — automatically.
 
-Built for sites that host media on external servers and need to migrate files into WordPress, or for cleaning up content that references third-party file hosts.
+Perfect for migrating sites away from external file hosts, consolidating CDN-hosted assets, or cleaning up content that still references third-party servers.
 
 ## Features
 
@@ -35,9 +35,9 @@ Built for sites that host media on external servers and need to migrate files in
 
 ## Installation
 
-1. Download the plugin and upload the `external-media-importer` folder to `/wp-content/plugins/`.
+1. Download the plugin and upload the `mediaflock` folder to `/wp-content/plugins/`.
 2. Activate the plugin through the **Plugins** menu in WordPress.
-3. Navigate to **Media Importer** in the WordPress admin sidebar to begin scanning.
+3. Navigate to **MediaFlock** in the WordPress admin sidebar to begin scanning.
 
 Alternatively, upload the plugin ZIP file via **Plugins > Add New > Upload Plugin** in the WordPress admin.
 
@@ -45,7 +45,7 @@ Alternatively, upload the plugin ZIP file via **Plugins > Add New > Upload Plugi
 
 ### Scanning Posts
 
-1. Go to **Media Importer** in the admin menu.
+1. Go to **MediaFlock** in the admin menu.
 2. Select a **post type** from the dropdown (posts, pages, or any registered custom post type).
 3. Check the **post statuses** you want to include (publish, draft, pending, private, future).
 4. Click **Scan Posts**.
@@ -66,7 +66,7 @@ The URL replacement logic handles multiple encoding variants of the same URL, en
 
 ### Quick Scan
 
-1. On the main **Media Importer** page, find the **Quick Scan** section.
+1. On the main **MediaFlock** page, find the **Quick Scan** section.
 2. Enter a post ID or a full post URL.
 3. Click **Quick Scan**.
 4. The plugin resolves the post and displays any external media files found, with the same import controls as a full scan.
@@ -84,7 +84,7 @@ Use this to estimate disk space requirements before importing.
 
 ### Resume Scan
 
-If a scan is interrupted (browser closed, network error, page navigation), the plugin saves progress to the browser's localStorage. When you return to the Media Importer page:
+If a scan is interrupted (browser closed, network error, page navigation), the plugin saves progress to the browser's localStorage. When you return to the MediaFlock page:
 
 1. A **resume banner** appears showing the interrupted scan details.
 2. Click **Resume** to continue from where the scan left off.
@@ -92,7 +92,7 @@ If a scan is interrupted (browser closed, network error, page navigation), the p
 
 ## Settings
 
-Navigate to **Media Importer > Settings** to configure the plugin.
+Navigate to **MediaFlock > Settings** to configure the plugin.
 
 ### File Types
 
@@ -121,7 +121,7 @@ Choose who can access the plugin:
 
 ### Dashboard
 
-Navigate to **Media Importer > Dashboard** to view import statistics:
+Navigate to **MediaFlock > Dashboard** to view import statistics:
 
 - **Overview** -- Total imports, success count, error count, and skipped count with percentages
 - **Storage** -- Total disk space used by imported files and the number of unique posts affected
@@ -131,7 +131,7 @@ Disk space data is cached for one hour using a WordPress transient.
 
 ### Logs
 
-Navigate to **Media Importer > Logs** to view the import log:
+Navigate to **MediaFlock > Logs** to view the import log:
 
 - Logs are paginated at 50 entries per page.
 - Use the **status filter tabs** (All / Success / Error / Skipped) to filter entries.
@@ -158,7 +158,7 @@ The plugin is fully internationalized. All user-facing strings in PHP use `__()`
 
 1. Use a tool like [Poedit](https://poedit.net/) or [Loco Translate](https://wordpress.org/plugins/loco-translate/) to open the `.pot` file located in the `languages/` directory.
 2. Translate the strings into your language.
-3. Save the `.po` and `.mo` files with the correct locale code (e.g., `external-media-importer-fr_FR.po` and `external-media-importer-fr_FR.mo`).
+3. Save the `.po` and `.mo` files with the correct locale code (e.g., `mediaflock-fr_FR.po` and `mediaflock-fr_FR.mo`).
 4. Place the files in the `languages/` directory inside the plugin folder.
 
 ## Screenshots
@@ -174,8 +174,25 @@ The plugin is fully internationalized. All user-facing strings in PHP use `__()`
 
 ## Changelog
 
+### 1.0.32
+- Added `wp_unslash()` before all sanitization on `$_GET`/`$_POST` superglobals
+- Wrapped `wp_verify_nonce()` input with `sanitize_text_field(wp_unslash())`
+- Escaped `get_edit_post_link()` output with `esc_url()`
+- Replaced manual `selected`/`disabled` attributes with WordPress `selected()` and `disabled()` functions
+- Escaped `paginate_links()` output with `wp_kses_post()`
+
+### 1.0.31
+- Renamed plugin to MediaFlock with new slug `mediaflock` and text domain `mediaflock`
+- Updated all prefixes from `emi_` to `mflk_` (4-character minimum per WordPress guidelines)
+- Updated all CSS classes, HTML IDs, AJAX actions, nonces, options, and localStorage keys
+
+### 1.0.30
+- WordPress.org review compliance: all output escaped with `esc_html_e()`, `esc_html__()`, `wp_kses()`, `esc_js()`
+- Bundled Select2 library locally (removed CDN dependency)
+- Moved inline styles to external CSS file
+
 ### 1.0.29
-- Full localization: wrapped all PHP strings in translation functions, passed JS strings via `emiAjax.i18n`, added `load_plugin_textdomain()` support, created `.pot` template and Georgian (`ka_GE`) translation files
+- Full localization: wrapped all PHP strings in translation functions, passed JS strings via `mflkAjax.i18n`, added `load_plugin_textdomain()` support, created `.pot` template and Georgian (`ka_GE`) translation files
 - Added English README.md and Georgian README-ka.md documentation
 
 ### 1.0.28
